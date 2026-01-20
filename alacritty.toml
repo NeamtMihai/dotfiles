@@ -1,0 +1,94 @@
+[font]
+size = 21
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+
+[window]
+# opacity = 0.95
+opacity = 0.888
+
+[window.dimensions]
+columns = 67
+lines = 27
+
+[window.padding]
+x = 24
+y = 24
+
+# [colors.normal]
+# black= "#333a82"
+# red= "#30377c"
+# green= "#30357a"
+# yellow= "#ff8c62"
+# blue= "#b870a8"
+# magenta= "#945e9c"
+# cyan= "#644388"
+# white= "#5e5fab"
+
+# [colors.bright]
+# black   = "#6f77db"
+# blue    = "#7a64b8"
+# cyan    = "#8f7fae"
+# green   = "#8d70a1"
+# magenta = "#b38cb5"
+# red     = "#cf8c75"
+# white   = "#aa9cb0"
+# yellow  = "#b3927a"
+
+
+# [colors]
+#   primary = "#8B4E90"  # Deep purple background
+#   foreground = "#FFD700"  # Golden primary text
+
+# [colors.cursor]
+#  text = "#ff8c62"  # Vibrant orange cursor
+
+# [colors.selection]
+#   background = "#FF69B4"  # Pinkish selection background
+
+# [colors.normal]
+#   black = "#000000"
+#   red = "#FF4500"
+#   green = "#32CD32"
+#   yellow = "#FFD700"
+#   blue = "#1E90FF"
+#   magenta = "#8B4E90"
+#   cyan = "#20B2AA"
+#   white = "#FFFFFF"
+
+# [colors.primary]
+# background = "#191724"
+# foreground = "#e0def4"
+
+
+[colors.primary]
+background = "#232136"
+foreground = "#e0def4"
+
+
+
+[colors.cursor]
+text = "#191724"
+cursor = "#e0def4"
+
+[colors.normal]
+black   = "#26233a"
+red     = "#eb6f92"
+green   = "#31748f"
+yellow  = "#f6c177"
+blue    = "#9ccfd8"
+magenta = "#c4a7e7"
+cyan    = "#ebbcba"
+white   = "#e0def4"
+
+[colors.bright]
+black   = "#6e6a86"
+red     = "#eb6f92"
+green   = "#31748f"
+yellow  = "#f6c177"
+blue    = "#9ccfd8"
+magenta = "#c4a7e7"
+cyan    = "#ebbcba"
+white   = "#e0def4"
+
