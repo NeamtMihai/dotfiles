@@ -46,6 +46,7 @@ alias lint='npm run lint'
 alias lindor='npm run lint'
 alias ling='npm run lint'
 alias bine='echo da bine, sanatos, voios | pbcopy'
+alias rls='echo Release to Staging | pbcopy'
 alias format='npm run format-fix'
 alias vreme='curl wttr.in'
 alias dai='npm run build && npm run start'
@@ -54,13 +55,20 @@ alias preg='ls && rm -r Archive.zip && ls && zip -rq Archive.zip . && ls'
 alias preg2='echo ""; ls && rm -r Archive.zip && echo "" && echo ""; ls && zip -rq Archive.zip . && ls'
 alias fullbuild='npm run build && npm run post-build'
 alias now='date "+%d-%m-%Y %H:%M" | pbcopy'
+alias pass='echo B0rz3P3G4mp!r!!nP0d!r3! | pbcopy'
 alias mdi='code ~/Documents/work/master-data-importer'
+alias cfs='code ~/Documents/work/category-fitment-service'
 alias pda='code ~/Documents/work/product-data-adapter'
-alias fitment='code ~/Documents/work/fitment-service'
+alias fitment='code ~/Documents/work/fitment-service  '
 alias pricing='code ~/Documents/work/pricing-service'
 alias vehicle='code ~/Documents/work/vehicle-service'
+alias obs='code ~/Documents/fun/obsidean'
 alias paint='open -a "Brave Browser" https://jspaint.app/'
-
+alias pont='open https://autonet.sharepoint.com/:x:/r/sites/DSS-Administrativ'
+alias idkcevaenc='🛠️🎭🚀'
+alias note='cd ~/note && ls -Gal'
+alias todo="vim ~/note/todo_next"
+alias papa='echo ma gaandeam sa incep conversatia cu ce papam diseara 😘 | pbcopy'
 alias azure='echo -e "
 VEHICLE🚗 DEV🛠️ https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/dev-vehicleservice-rg/overview
 -
@@ -80,22 +88,29 @@ MDI DEV🛠️ https://portal.azure.com/#@atp-autoteile.de/resource/subscription
 -
 MDI STG🎭 https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/staging-masterdataimporter-rg/overview
 -
-MDI PRD🚀 https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/production-masterdataimporter-rg/overview" | lolcat --freq 0.08 --spread 20 --seed 42'
+MDI PRD🚀 https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/production-masterdataimporter-rg/overview
+---
+-
+CFS DEV🛠️https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/dev-categoryfitmentservice-rg/overview
+-
+CFS STG🎭 https://portal.azure.com/#@atp-autoteile.de/resource/subscriptions/7f589ede-53f3-4f38-bb28-5e06d1f7d4b2/resourceGroups/staging-categoryfitmentservice-rg/overview
+" | lolcat --freq 0.08 --spread 20 --seed 42'
 # | lolcat --freq 0.08 --spread 20 --seed 42
 # | lolcat -p 1 -F 0.1'
 
-
-alias hub2='echo MDI https://github.com/ATPAutoteile/master-data-importer | lolcat
-echo ---
-echo PRICING https://github.com/ATPAutoteile/pricing-service | lolcat'
-
 alias hub='echo -e "MDI https://github.com/ATPAutoteile/master-data-importer
 ---
-PRICING https://github.com/ATPAutoteile/pricing-service" | lolcat -p 1 -F 0.1'
-
-alias pricingweb='echo -e "DEV https://dev-pricingservice-frontend-appservice.azurewebsites.net/products
+PRICING💰 https://github.com/ATPAutoteile/pricing-service
 ---
-PROD https://production-pricingservice-frontend-appservice.azurewebsites.net/price-uploads" | lolcat -p 1 -F 0.1'
+VEHICLE🚗 https://github.com/ATPAutoteile/vehicle-service
+---
+CFS https://github.com/ATPAutoteile/category-fitment-service" | lolcat -p 1 -F 0.1'
+
+alias pricingweb='echo -e "DEV🛠️ https://dev-pricingservice-frontend-appservice.azurewebsites.net/products
+---
+STAG🎭 https://staging-pricingservice-frontend-appservice.azurewebsites.net/products
+---
+PROD🚀 https://production-pricingservice-frontend-appservice.azurewebsites.net/price-uploads" | lolcat --freq 0.08 --spread 20 --seed 42'
 
 colors=(
     "\033[38;2;51;58;130m"    # black
@@ -127,10 +142,14 @@ color_aleatoriu=${colors[RANDOM % ${#colors[@]}]}
 # Afiseaza mesajul
 # toilet -f digital "$mesaj_aleatoriu" | lolcat
 echo "$mesaj_aleatoriu" | lolcat --freq 0.08 --spread 20 --seed 42
+alias xxx="echo "$mesaj_aleatoriu" | lolcat --freq 0.08 --spread 20 --seed 42"
+alias zzz="echo "$mesaj_aleatoriu" | lolcat --freq 0.08 --spread 20 --seed 42"
+
 alias haha="for run in {1..100}; do echo "$mesaj_aleatoriu" | lolcat; done"
 alias haha2="for run in {1..100}; do echo  fuck scayle mfs lowered it to 300 no wonder it all failed  | lolcat; done"
 
 alias zedit="code ~/.zshrc"
+alias vedit="vim ~/.zshrc"
 alias zrc="cd && code .zshrc"
 alias lol="lolcat"
 #echo -e "${color_aleatoriu}$mesaj_aleatoriu${reset_color}"
